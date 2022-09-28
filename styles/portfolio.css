@@ -1,7 +1,51 @@
+:root {
+  --primary-color: #f8a28b;
+  --secondary-color: #fcded6;
+  --primary-font: font-family: "Playfair Display", serif;
+  --secondary-font: font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(247, 148, 120, 0.3);
+}
+
 h1 {
   font-family: "Playfair Display", serif;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 p {
   font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  background-color: rgb(247, 148, 120, 0.8);
+  text-align: center;
+  margin: 50px 0;
+}
+
+.hero p {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+
+.persiks {
+  margin: 20px 0;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  width: 200px;
+  height: 60px;
+  border-color: #fcded6;
+  border-radius: 0.1;
+  color: #fcded6;
 }
