@@ -74,8 +74,16 @@ h5 {
   max-width: 100%;
 }
 
+#about-me {
+  margin: 20px;
+}
+
 .about-persiks {
   max-width: 100%;
+}
+
+.second-persiks {
+  padding-bottom: 20px;
 }
 
 .my-work {
