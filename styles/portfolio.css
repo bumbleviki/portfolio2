@@ -83,6 +83,14 @@ h5 {
   padding: 30px 0 0 0;
 }
 
+.contact-container {
+  text-align: center;
+}
+
+.touch {
+  padding: 30px 0 0 0;
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 40px;
