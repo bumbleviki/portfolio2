@@ -33,7 +33,22 @@ h3 {
 }
 
 h5 {
-  color: #fcded6;
+  color: #68392f;
+}
+
+.cat {
+  inline-size: 100%;
+  block-size: 100%;
+
+  object-fit: cover;
+
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, hsl(0 0% 40%), hsl(0 0% 20%));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  & {
+    transition: outline-offset 0.25s ease;
 }
 
 .hero {
@@ -75,32 +90,12 @@ h5 {
   }
 
   .hero h2 {
-    font-size: 32px;
+    font-size: 20px;
     text-align: center;
   }
 
   .hero p {
     text-align: center;
-  }
-
-  .persik {
-    display: none;
-  }
-
-  .persi {
-    display: none;
-  }
-
-  .pers {
-    display: none;
-  }
-
-  .pers2 {
-    display: none;
-  }
-
-  .pers3 {
-    display: none;
   }
 
   #all-page {
@@ -112,7 +107,7 @@ h5 {
   }
 }
 
-@media (min-width: 577px) and (max-width: 769px) {
+@media (min-width: 576px) and (max-width: 769px) {
   .hero {
     max-width: 100%;
     text-align: center;
@@ -123,7 +118,7 @@ h5 {
   }
 
   .hero h2 {
-    font-size: 32px;
+    font-size: 20px;
     text-align: center;
   }
 
@@ -131,28 +126,8 @@ h5 {
     text-align: center;
   }
 
-  .persik {
-    display: none;
-  }
-
-  .persi {
-    display: none;
-  }
-
-  .pers {
-    display: none;
-  }
-
-  .pers2 {
-    display: none;
-  }
-
-  .pers3 {
-    display: none;
-  }
-
   #all-page {
-    max-width: 80%;
+    max-width: 95%;
   }
 
   body {
@@ -160,27 +135,6 @@ h5 {
   }
 }
 
-@media (max-width: 1280px) {
-  .persik {
-    display: none;
-  }
-
-  .persi {
-    display: none;
-  }
-
-  .pers {
-    display: none;
-  }
-
-  .pers2 {
-    display: none;
-  }
-
-  .pers3 {
-    display: none;
-  }
-}
 .navbar {
   background-color: #f7866a;
 }
