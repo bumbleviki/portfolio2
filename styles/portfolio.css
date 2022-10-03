@@ -43,12 +43,12 @@ h5 {
   object-fit: cover;
 
   overflow: hidden;
-  background-image: linear-gradient(to bottom, hsl(0 0% 40%), hsl(0 0% 20%));
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  & {
-    transition: outline-offset 0.25s ease;
+.persiks2,
+.persiks4 {
+  transition: transform 0.25s;
+  overflow: hidden;
 }
 
 .hero {
@@ -127,7 +127,7 @@ h5 {
   }
 
   #all-page {
-    max-width: 95%;
+    max-width: 99%;
   }
 
   body {
